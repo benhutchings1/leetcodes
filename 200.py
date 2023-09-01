@@ -2,6 +2,11 @@ from typing import List
 from collections import deque
 import numpy as np
 
+#
+# Leetcode problem 200
+# Number of Islands
+#
+
 def numIslands(grid: List[List[str]]) -> int:
     '''
     Returns the number of islands. Islands are disconnected by ocean and islands are connected by cardinally adjacent 1's
